@@ -11,6 +11,8 @@ async def hello():
         'message': 'Hello index'
     }
 
+# dscsdc
+
 
 @app.get('/hello/')
 async def get_hello(name: str = 'world'):
